@@ -1,0 +1,2 @@
+﻿nu-html-checker *.html
+
