@@ -1,6 +1,7 @@
 {
-  "name": "nauka-gita",
+  "name": "nauka-gita-5",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "autoprefixer-cli": "^1.0.0",
@@ -14,14 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KasiaPiatek/nauka-gita.git"
+    "url": "git+https://github.com/KasiaPiatek/7.5.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KasiaPiatek/nauka-gita/issues"
+    "url": "https://github.com/KasiaPiatek/7.5/issues"
   },
-  "homepage": "https://github.com/KasiaPiatek/nauka-gita#readme",
-  "description": ""
+  "homepage": "https://github.com/KasiaPiatek/7.5#readme"
 }
