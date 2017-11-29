@@ -1,2 +1,3 @@
 ﻿nu-html-checker *.html
 
+autoprefixer-cli -o main style.css style.prefixed.css
