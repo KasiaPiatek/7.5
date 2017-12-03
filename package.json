@@ -19,7 +19,7 @@
     "watch:browsersync": "npm run watch",
     "build": "npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:sass": "sass style.scss:style.css --sourcemap",
-    "build:autoprefixer": "autoprefixer-cli -o style.css style.prefixed.css"
+    "build:autoprefixer": "autoprefixer-cli -o style.prefixed.css style.css"
   },
   "repository": {
     "type": "git",
