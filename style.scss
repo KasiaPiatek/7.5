@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
@@ -444,10 +445,42 @@ header {
     
 
     a:hover {
+=======
+nav>ul>li {
+	margin-top: 0px;
+}
+
+header>nav ul {
+	padding: 0;
+	list-style-type: none;
+	float: right;
+	margin: 0;
+	text-align: center;
+	display: flex;
+	padding: 0; 
+	
+}
+
+header>nav ul>li {
+	float: left;
+}
+
+header>nav ul>li>a {
+	height: 50px;
+	padding: 15px 20px 0 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+>>>>>>> f837ebb2ea6a8bbc25d213274578702600dae215
 	background-color:#807F7D;
 	margin-top: 0;
 }
 
+<<<<<<< HEAD
     .row-gallery img:hover {
 	cursor: pointer;
 	opacity: 0.8;
@@ -484,3 +517,11 @@ header {
 	padding: 0;
 }
 }
+=======
+
+
+header>nav img {
+	padding: 10px 0;
+}
+
+>>>>>>> f837ebb2ea6a8bbc25d213274578702600dae215
