@@ -16,15 +16,13 @@
     "test:html": "glob-run nu-html-checker *.html",
     "watch": "browser-sync start --server --files css/*.css *.html",
     "watch:browsersync": "npm run watch",
-<<<<<<< HEAD
     "build": "npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:sass": "sass style.scss:style.css --sourcemap",
-    "build:autoprefixer": "autoprefixer-cli -o style.prefixed.css style.css"
-=======
+    "build:autoprefixer": "autoprefixer-cli -o style.prefixed.css style.css",
     "build": "npm run build:clean && npm run buils:sass && npm run buils:autoprefixer && npm run watch:sassprefixer && npm run test",
     "build:sass": "sass --sourcemap=none --update sass:css",
     "build:autoprefixer": "autoprefixer-cli css/style.css"
->>>>>>> a40864e3e377c038fa6598a37d03971571209e88
+
   },
   "repository": {
     "type": "git",
