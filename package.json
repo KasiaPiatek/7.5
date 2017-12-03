@@ -19,9 +19,6 @@
     "build": "npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:sass": "sass style.scss:style.css --sourcemap",
     "build:autoprefixer": "autoprefixer-cli -o style.prefixed.css style.css",
-    "build": "npm run build:clean && npm run buils:sass && npm run buils:autoprefixer && npm run watch:sassprefixer && npm run test",
-    "build:sass": "sass --sourcemap=none --update sass:css",
-    "build:autoprefixer": "autoprefixer-cli css/style.css"
 
   },
   "repository": {
