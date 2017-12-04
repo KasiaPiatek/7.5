@@ -1,9 +1,5 @@
 ﻿nu-html-checker *.html
 
-<<<<<<< HEAD
-autoprefixer-cli -o main style.css style.prefixed.css
-=======
 sass style.scss:style.css --sourcemap
 
-autoprefixer-cli -o style.css style.prefixed.css
->>>>>>> f837ebb2ea6a8bbc25d213274578702600dae215
+autoprefixer-cli -o style.prefixed.css style.css
